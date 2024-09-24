@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.toolbar button, .toolbar select, .toolbar input[type="color"] {
+  padding: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.text-editor {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 300px;
+  background-color: #fff;
+  outline: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h3 {
+  text-align: center;
+}
