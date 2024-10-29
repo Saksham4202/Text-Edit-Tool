@@ -5,7 +5,7 @@ import TextEditor from './components/TextEditor';
 function App() {
   return (
     <div className="App">
-      <h1>Advanced React Text Edit Tool</h1>
+      <h1>Text Edit Tool</h1>
       <TextEditor />
     </div>
   );
